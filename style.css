@@ -13,29 +13,30 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 100px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 
 }
 
 /* HERO SECTION */
 
-.pinkbox {
-
-    height: 440px;
-    width: 1060px;
+.wrapper {
+    flex-wrap:wrap ;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
     background: rgb(255, 223, 229);
     border-radius: 16px;
-    bottom: 90px;
-    position: relative;
-    left: 100px;
-
+    padding-left:55px ;
+   display: flex;
+   justify-content: space-between;
+   
+    align-items: center;
 }
 
-.tv {
-    position: absolute;
-    top: 150px;
-    left: 60%;
-}
+/* .tv {
+    
+    
+} */
 
 .tv img {
     height: 340px;
@@ -44,13 +45,13 @@ nav {
 
 
 
-.texts {
+/* .texts {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    
     top: 190px;
     right: 47%;
-}
+} */
 
 .texts h1 {
     font-weight: 900;
