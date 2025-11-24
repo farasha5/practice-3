@@ -33,7 +33,7 @@
     
  /* TV */
 .tv {
-     margin-top: -70px;
+     margin-top: -40px;
     transform: translateX(-300px);   /* moves left */
 }
 
@@ -43,7 +43,7 @@
 }
 
     .texts {
-    margin-top: 140px;
+    margin-top: 170px;
     margin-right: 80px;
 
 
@@ -172,7 +172,7 @@
     .pinkbox2 {
         width: 85%;
         
-        margin: 90px -100px;
+        margin: 90px -110px;
     }
 
     .form-header h2 {
